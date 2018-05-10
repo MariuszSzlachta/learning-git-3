@@ -18,7 +18,8 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-  position: relative
+  position: relative;
+  text-align: center;
 }
 .band {
   margin: 0 auto;
@@ -78,6 +79,7 @@ body {
   top: 350px;
   left: 0;
   right: 0;
+  padding: 50px 0;
 }
 .song-title {
   position: fixed;
@@ -92,7 +94,16 @@ body {
 .song-verse {
   text-align: center;
   width: 100%;
+  font-size: 1.5rem;
+}
+.song-verse:last-child {
+  margin-bottom: 40px;
+  border-bottom: 4px solid #fff;
 }
 .song-verse span {
   display: block;
+}
+
+.youtube-video: {
+  margin-top: 140px;
 }
