@@ -16,14 +16,16 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1600px;
   width: 100%;
-  position: relative;
   text-align: center;
 }
+
 .band {
   margin: 0 auto;
+  padding: 0 5%;
 }
+
 .band-info {
   margin: 0 auto;
   position: fixed;
@@ -51,6 +53,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 0 5%;
 }
 
 .album-name {
@@ -75,35 +78,70 @@ body {
 
 .song {
   background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 350px;
-  left: 0;
-  right: 0;
   padding: 50px 0;
+  margin-top: 350px;
 }
+
 .song-title {
-  position: fixed;
-  top: 345px;
-  left: 0;
-  right: 0;
   background-color: #000;
   margin: 10px 0;
   text-align: center;
   font-size: 2.4rem;
 }
+
 .song-verse {
   text-align: center;
   width: 100%;
   font-size: 1.5rem;
 }
+
 .song-verse:last-child {
   margin-bottom: 40px;
   border-bottom: 4px solid #fff;
 }
+
 .song-verse span {
   display: block;
 }
 
-.youtube-video: {
-  margin-top: 140px;
+.youtube-video {
+  margin-top: 40px;
+  width: 600px;
+  height: 350px;
+}
+
+@media (max-width: 1100px) {
+  .album-name {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .album-name,
+  .song-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .album-name,
+  .song-title {
+    font-size: 2rem;
+  }
+  .youtube-video {
+    margin-top: 40px;
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media (max-width:480px) {
+  .song {
+    margin-top: 200px;
+  }
+  .youtube-video {
+    margin-top: 40px;
+    width: 300px;
+    height: 175px;
+  }
 }
