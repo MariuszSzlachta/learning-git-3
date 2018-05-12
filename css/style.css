@@ -5,8 +5,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  color: #FFE;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
   background-color: #000;
   background-image: url("https://i.imgur.com/GcP8wcY.jpg");
   background-repeat: no-repeat;
@@ -16,15 +16,10 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 20px;
   max-width: 1600px;
   width: 100%;
   text-align: center;
-}
-
-.band {
-  margin: 0 auto;
-  padding: 0 5%;
 }
 
 .band-info {
@@ -46,7 +41,7 @@ body {
 .band-name,
 .album-name,
 .song-title {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
 
 .album {
@@ -136,7 +131,7 @@ body {
   }
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
   .song {
     margin-top: 200px;
   }
@@ -146,3 +141,5 @@ body {
     height: 175px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
