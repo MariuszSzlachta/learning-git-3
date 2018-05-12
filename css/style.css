@@ -45,9 +45,12 @@ body {
 }
 
 .album {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   width: 100%;
   padding: 0 5%;
 }
@@ -141,5 +144,4 @@ body {
     height: 175px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
